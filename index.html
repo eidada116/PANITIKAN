@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maria Makiling</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="overlay">
+          <h1>Maria Makiling</h1>
+          <p>A look into the play of the Filipino legend</p>
+        </div>
+        <div class="hero-slides">
+            <img src="photos/Designer.jpg" alt="Image 1" class="hero-image">
+            <img src="photos/Designer2.jpeg" alt="Image 2" class="hero-image">
+            <img src="photos/Designer3.jpeg" alt="Image 3" class="hero-image">
+        </div>
+    </header>
+
+    <script>
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.hero-image');
+        const totalImages = images.length;
+
+        function changeImage() {
+            images[currentIndex].style.opacity = 0;
+            images[currentIndex].style.transition = 'opacity 1s ease-in-out';
+            
+            currentIndex = (currentIndex + 1) % totalImages;
+            
+            images[currentIndex].style.opacity = 1;
+            images[currentIndex].style.transition = 'opacity 1s ease-in-out';
+        }
+
+        setInterval(changeImage, 5000);
+    </script>
+
+  
+  <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#actors">Actors</a>
+    <a href="#staff">Staff</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="full-width-section2">
+    <div class="about-content">
+      <div class="text-content">
+        <h2>About Us</h2>
+        <p>We are ANO BA TAYO GUYS PLS INSERT DITO.</p>
+      </div>
+      <div class="image-content">
+        <img src="photos/1.jpg" alt="Image 1" class="stacked-image">
+        <img src="photos/1.jpg" alt="Image 2" class="stacked-image">
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="actors" class="full-width-section dark-background">
+    <h2>Meet the Actors</h2>
+    <div class="actor-layout">
+      <img src="photos/actor.jpg" alt="Actor Image" class="actor-image">
+      <div>
+        <p>PA INSERT STUFF DITO PLEAAAASEEE.</p>
+        <button class="read-more-btn">Read More</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="full-width-section">
+    <h2 style="color:#556B2F">Our Gallery</h2>
+    <p style="color:#556B2F">INSERT GALLERY DESCRIPTIONNNNN</p>
+    <div class="photos">
+      <div class="box">
+        <img src="photos/1.jpg" alt="Gallery Image">
+      </div>
+      <div class="box">
+        <img src="photos/1.jpg" alt="Gallery Image">
+      </div>
+      <div class="box">
+        <img src="photos/1.jpg" alt="Gallery Image">
+      </div>
+      <div class="box">
+        <img src="photos/1.jpg" alt="Gallery Image">
+      </div>
+      <div class="box">
+        <img src="photos/1.jpg" alt="Gallery Image">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="full-width-section">
+    <h2 style="color:#556B2F">Contact Us</h2>
+    <p style="color:#556B2F">INSERT INFORAMTION.</p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Maria Makiling Play. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
