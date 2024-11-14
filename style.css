@@ -192,9 +192,13 @@ p {
     display:flex;
     flex-direction: column;
 }
+
+#act{
+    object-fit: cover;
+}
 .actor-image {
     width: 200px;
-    height: auto;
+    height: 230px;
     margin-right: 2em;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -532,4 +536,13 @@ textarea {
   input[type='text'], [type='email'], select, textarea {
     font-size: 0.875em;
   }
+}
+
+
+.story{
+    width:100%;
+    height:auto;
+    text-align: center;
+    align-items: center;
+    padding:60px
 }
