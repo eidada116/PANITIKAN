@@ -358,6 +358,12 @@ form {
   text-transform: uppercase;
 }
 
+#name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
 .underline {
   border-bottom: solid 2px #474544;
   margin: -0.512em auto;
