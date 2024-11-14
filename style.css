@@ -24,7 +24,11 @@ body {
     width: 100%;
     height: 100%;
 }
-
+.phooto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .hero-image {
     position: absolute;
     top: 0;
@@ -191,6 +195,9 @@ p {
 .what{
     display:flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:10px
 }
 
 #act{
@@ -243,7 +250,7 @@ p {
 
 
 #contact {
-    background-color: #bedaa9;
+    background-color: #7ba379;
     animation: fadeInElements 2s ease-out;
 }
 
@@ -328,7 +335,7 @@ button, select {
 }
 
 button, input, select, textarea {
-  color: #5A5A5A;
+  color: #e7e1ba;
   font: inherit;
   margin: 0;
 }
@@ -368,6 +375,20 @@ form {
     padding-top: 10px;
 }
 
+#image2{
+    width: 600px;
+    height:600px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.storyinner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .underline {
   border-bottom: solid 2px #474544;
   margin: -0.512em auto;
@@ -542,7 +563,9 @@ textarea {
 .story{
     width:100%;
     height:auto;
+    display:flex;
     text-align: center;
     align-items: center;
-    padding:60px
+    padding:60px;
+    flex-direction: column;
 }
