@@ -63,7 +63,8 @@ form {
 }
 
 #name{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     font-size: 25px;
     padding-top: 10px;
 }
@@ -194,7 +195,8 @@ textarea {
   color: #474544;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
   font-size: 0.875em;
   font-weight: bold;
   outline: none;
@@ -212,45 +214,6 @@ textarea {
   color: #F2F3EB;
 }
 
-@media screen and (max-width: 768px) {
-  #container {
-    margin: 20px auto;
-    width: 95%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  h1 {
-    font-size: 26px;
-  }
-  
-  .underline {
-    width: 68px;
-  }
-  
-  #form_button {
-    padding: 15px 25px;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  h1 {
-    font-size: 18px;
-  }
-  
-  .icon {
-    height: 35px;
-    width: 35px;
-  }
-  
-  .underline {
-    width: 53px;
-  }
-  
-  input[type='text'], [type='email'], select, textarea {
-    font-size: 0.875em;
-  }
-}
 
 
 .story{
@@ -262,3 +225,43 @@ textarea {
     padding:60px;
     flex-direction: column;
 }
+
+    @media screen and (max-width: 768px) {
+      #container {
+        margin: 20px auto;
+        width: 95%;
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      h1 {
+        font-size: 26px;
+      }
+      
+      .underline {
+        width: 68px;
+      }
+      
+      #form_button {
+        padding: 15px 25px;
+      }
+    }
+    
+    @media screen and (max-width: 420px) {
+      h1 {
+        font-size: 18px;
+      }
+      
+      .icon {
+        height: 35px;
+        width: 35px;
+      }
+      
+      .underline {
+        width: 53px;
+      }
+      
+      input[type='text'], [type='email'], select, textarea {
+        font-size: 0.875em;
+      }
+    }
