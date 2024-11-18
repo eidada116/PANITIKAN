@@ -1,0 +1,26 @@
+
+
+.story{
+    width:100%;
+    height:auto;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    padding:60px;
+    flex-direction: column;
+}
+
+.storyinner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#image2{
+    width: 600px;
+    height:600px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}

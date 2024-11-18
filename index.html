@@ -1,85 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maria Makiling</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Makiling</title>
+    <!--HERO STYLE-->
+    <link rel="stylesheet" href="css/hero.css">
+
+    <!--MIDDLE SECTION-->
+    <link rel="stylesheet" href="css/mid.css">
+
+    <!--GALLERY-->
+    <link rel="stylesheet" href="css/gallery.css">
+
+    <!--CONTACT-->
+    <link rel="stylesheet" href="css/contact.css">
+
+    <!--ANIMATIONS-->
+    <link rel="stylesheet" href="css/anim.css">
+    
 </head>
 <body>
-  <nav class="navbar">
-    <a href="#about">About</a>
-    <a href="#actors">Actors</a>
-    <a href="#gallery">Gallery</a>
-    <a href="story.html">Story</a>
-    <a href="#contact">Contact</a>
-  </nav>
     <header class="hero">
-        <div class="overlay">
-          <h1>Maria Makiling</h1>
-          <p>A look into the play of the Filipino legend</p>
+        <div class="navbar2">
+          <img src="https://static.vecteezy.com/system/resources/previews/010/862/328/non_2x/element-yellow-flower-icon-free-png.png" style="width:60px; height:60px">
         </div>
-        <div class="hero-slides">
-            <img src="photos/a.jpg" alt="Image 1" class="hero-image">
-            <img src="photos/b.jpg" alt="Image 2" class="hero-image">
-            <img src="https://c1.wallpaperflare.com/preview/999/308/45/hall-castle-ballroom-historically.jpg" alt="Image 3" class="hero-image">
+          <div class="overlay">
+            <h1>Maria Makiling</h1>
+            <p>A look into the play of the Filipino legend</p>
+          </div>
+          <div class="hero-slides">
+              <img src="photos/a.jpg" alt="Image 1" class="hero-image">
+              <img src="photos/b.jpg" alt="Image 2" class="hero-image">
+              <img src="https://c1.wallpaperflare.com/preview/999/308/45/hall-castle-ballroom-historically.jpg" alt="Image 3" class="hero-image">
+          </div>
+          <script src="js/hero.js"></script>
+      </header>
+
+      <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#actors">Actors</a>
+        <a href="#gallery">Gallery</a>
+        <a href="story.html">Story</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+
+      <!--ABOUT US SECTION-->
+      <section id="about" class="about">
+        <div class="about-content">
+          <div class="text-content">
+            <h2>About Us</h2>
+            <p>Ang F5 Productions ay isang studio na naglalayon maghatid ng de-kalidad na mga palabas na may makulay na kwento ng kultura at kasaysayan. Tampok dito ang "Maria Makiling," isang palabas na muling binibigyang buhay ang alamat ng isang diwata, na nagpapakita ng pag-ibig, sakripisyo, at katapangan.</p>
+          </div>
+          <div class="image-content">
+            <img src="https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/48674/article_full%401x.jpg" alt="Image 1" class="stacked-image">
+            <img src="https://media.istockphoto.com/id/867392096/photo/actors-practicing-play-on-stage.jpg?s=612x612&w=0&k=20&c=tBIE_bR5hL7k0wijwwsMoUEOMM63LKIgbQ_PuPF2B4Y=" alt="Image 2" class="stacked-image">
+          </div>
         </div>
-    </header>
+      </section>
 
-    <script src="script.js"></script>
-
-  
-
-  <section id="about" class="full-width-section2">
-    <div class="about-content">
-      <div class="text-content">
-        <h2>About Us</h2>
-        <p>Ang F5 Productions ay isang studio na naglalayon maghatid ng de-kalidad na mga palabas na may makulay na kwento ng kultura at kasaysayan. Tampok dito ang "Maria Makiling," isang palabas na muling binibigyang buhay ang alamat ng isang diwata, na nagpapakita ng pag-ibig, sakripisyo, at katapangan.</p>
-      </div>
-      <div class="image-content">
-        <img src="https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/48674/article_full%401x.jpg" alt="Image 1" class="stacked-image">
-        <img src="https://media.istockphoto.com/id/867392096/photo/actors-practicing-play-on-stage.jpg?s=612x612&w=0&k=20&c=tBIE_bR5hL7k0wijwwsMoUEOMM63LKIgbQ_PuPF2B4Y=" alt="Image 2" class="stacked-image">
-      </div>
-    </div>
-  </section>
-  
-  <!--        <button class="read-more-btn">Read More</button>
--->
-  
-
-  <section id="actors" class="full-width-section dark-background">
-    <h2>Meet the Actors</h2>
-
-    <div class="new-hi">
-      <div class="actor-layout">
-        <div class="what">
-          <img id="act" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlz9OAWwISGxOwGjTybJqfkg2GvTqdWr2jIn19mV7enbZPvSWhFoq34JVOhiBxecJZJOc&usqp=CAU" alt="Actor Image" class="actor-image">
-          <p id="name">Maria Makiling</p>
-          <p>Played by Jane Doe</p>
-          <p style="width:50%"></p>
-        </div>
-        <div class="what">
-          <img id="act" src="https://media.istockphoto.com/id/1210331584/photo/handsome-african-american-actor-holding-scenario-on-stage-during-rehearse.jpg?s=612x612&w=0&k=20&c=SVQF26bxY1wxeW1qMRqK-mhumEXOkuRoZPgvjZQ8Yzg=" alt="Actor Image" class="actor-image">
-          <p id="name">Juan</p>
-          <p>Played by Juan Doe.</p>
-
-        </div>
-        <div class="what">
-          <img id="act" src="https://media.istockphoto.com/id/153661554/photo/actors-headshot.jpg?s=612x612&w=0&k=20&c=7lD7vmOcOk6ho0_7SMmrcl4-D7g35q8uxxv701EOjrs=" alt="Actor Image" class="actor-image">
-          <p id="name">Joselito</p>
-          <p>Played by John Doe</p>
-        </div>
-        <div class="what">
-          <img id="act" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBvqzyx_zoi6q2c0Gd1XnE7wysD9PGOLe3-A&s" alt="Actor Image" class="actor-image">
-          <p id="name">Kapitan Lara</p>
-          <p>Played by Lara Doe</p>
-
-        </div>
-  
-      </div>
-    </div>
+      <!--ACTORS SECTION-->
+      <section id="actors" class="full-width-section dark-background">
+        <h2>Meet the Actors</h2>
+        <div class="new-hi">
+          <div class="actor-layout">
+            <div class="actor">
+              <img id="act" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlz9OAWwISGxOwGjTybJqfkg2GvTqdWr2jIn19mV7enbZPvSWhFoq34JVOhiBxecJZJOc&usqp=CAU" alt="Actor Image" class="actor-image">
+              <p id="name">Maria Makiling</p>
+              <p>Played by Jane Doe</p>
+              <p style="width:50%"></p>
+            </div>
+            <div class="actor">
+              <img id="act" src="https://media.istockphoto.com/id/1210331584/photo/handsome-african-american-actor-holding-scenario-on-stage-during-rehearse.jpg?s=612x612&w=0&k=20&c=SVQF26bxY1wxeW1qMRqK-mhumEXOkuRoZPgvjZQ8Yzg=" alt="Actor Image" class="actor-image">
+              <p id="name">Juan</p>
+              <p>Played by Juan Doe.</p>
+              </p>
     
-  </section>
+            </div>
+            <div class="actor">
+              <img id="act" src="https://media.istockphoto.com/id/153661554/photo/actors-headshot.jpg?s=612x612&w=0&k=20&c=7lD7vmOcOk6ho0_7SMmrcl4-D7g35q8uxxv701EOjrs=" alt="Actor Image" class="actor-image">
+              <p id="name">Joselito</p>
+              <p>Played by John Doe</p>
+            </div>
+            <div class="actor">
+              <img id="act" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBvqzyx_zoi6q2c0Gd1XnE7wysD9PGOLe3-A&s" alt="Actor Image" class="actor-image">
+              <p id="name">Kapitan Lara</p>
+              <p>Played by Lara Doe</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+  
+  <!--GALLERY SECTION-->
 
   <section id="gallery" class="full-width-section">
     <h2 style="color:#556B2F">Our Gallery</h2>
@@ -103,6 +117,7 @@
     </div>
   </section>
 
+  <!--CONTACT US-->
   <section id="contact" class="full-width-section">
     
     <div id="container">
@@ -146,6 +161,7 @@
       </form><!-- // End form -->
     </div><!-- // End #container -->
   </section>
+
 
   <footer class="footer">
     <p>&copy; 2024 Maria Makiling Play. All rights reserved.</p>
