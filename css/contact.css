@@ -223,6 +223,18 @@ textarea {
   color: #F2F3EB;
 }
 
+
+
+.story{
+    width:100%;
+    height:auto;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    padding:60px;
+    flex-direction: column;
+}
+
 @media screen and (max-width: 768px) {
   #container {
     margin: 20px auto;
