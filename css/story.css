@@ -1,4 +1,4 @@
-.navbar a{
+.navbar a {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
@@ -58,24 +58,24 @@
     text-align: start;
 }
 
-.critic-container{
+.critic-container {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     gap: 20px;
 }
 
-.critic-header{
+.critic-header {
     font-size: 2rem;
     font-weight: 700;
 }
 
-.critic-content{
+.critic-content {
     display: flex;
-    gap: 50px   ; 
-} 
+    gap: 50px;
+}
 
-.critic{
+.critic {
     width: 100%;
     max-width: 400px;
     border: 1px solid #3d3d3d;
@@ -84,12 +84,39 @@
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .2);
 }
 
-.critic-title{
+.critic-title {
     font-size: 1.2rem;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.critic-desc{
+.pictures{
+    margin-top: 100px;
+}
 
+.pictures-header{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.pictures-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.picture{
+    width: 300px;
+}
+
+.image{
+    width: 300px;
+}
+
+.picture-title{
+    font-weight: 700;
+    margin-bottom: 10px;
 }
