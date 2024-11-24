@@ -130,3 +130,9 @@ p {
     filter: sepia(0);
 }
 
+#random{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
