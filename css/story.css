@@ -1,33 +1,96 @@
+.navbar a{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
 
-
-.story{
-    width:100%;
-    height:auto;
-    display:flex;
-    text-align: center;
-    align-items: center;
-    padding:60px;
-    flex-direction: column;
 }
 
-.storyinner{
+.story {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 60px;
+    flex-direction: column;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.storyinner {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#image2{
+#image2 {
     width: 600px;
-    height:600px;
+    height: 600px;
     object-fit: cover;
     justify-content: center;
     align-items: center;
 }
 
-.phooto{
+.photo {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:20px
+    margin: 20px
+}
+
+.more-story {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.more-header {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.char {
+    margin: 20px 0;
+    width: auto;
+    text-align: start;
+}
+
+.critic-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.critic-header{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.critic-content{
+    display: flex;
+    gap: 50px   ; 
+} 
+
+.critic{
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #3d3d3d;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .2);
+}
+
+.critic-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.critic-desc{
+
 }
